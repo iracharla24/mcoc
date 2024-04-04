@@ -76,8 +76,8 @@ export default function EntryForm() {
                 </div>
 
                 <div className="flex flex-row gap-4 items-center text-rose-600 grow text-nowrap">
-                    <Field name="confirmemail" type="text" className="border-2 border-gray-500 rounded-lg text-black indent-4 min-h-12" placeholder="Confirm Email" />
-                    <ErrorMessage name="confirmemail" />
+                    <Field name="confirm_email" type="text" className="border-2 border-gray-500 rounded-lg text-black indent-4 min-h-12" placeholder="Confirm Email" />
+                    <ErrorMessage name="confirm_email" />
                 </div>
                 
                 <div className="flex flex-row gap-4 items-center text-rose-600 grow text-nowrap">
